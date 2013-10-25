@@ -1,8 +1,12 @@
 ;cse655lab3    11/27/2011
 ;Yuxiang Kou
 ;kou.29@osu.edu
+
 ;The documents about this program is at the end of this file.
 ;The main function defined is the last one in the file,
+
+;Problem: The assignment is to write a function, eliminateNsort, which will receive two lists of numbers as arguments. Suppose L1, L2 are the two lists. The result returned by the function should be obtained from L1, L2 as follows: start with L1 and remove from it all those elements that are also in L2; then sort the remaining elements into non-decreasing order to get the result list.
+
 ;The main function's name is "eliminateNsort", the first parameter is list1, second parameter is list2
 ;The output is a new list in which only contains list1's atoms and these atoms are not contained in list2.
 
